@@ -1,0 +1,68 @@
+.bgImage {
+    background-size: cover;
+}
+#content {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    background-color: rgba( 255, 255, 255, 0.5 );
+    padding: 50px;
+}
+h1 {
+    font-size: 100px;
+    color: white;
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    margin: 5px;
+}
+h2 {
+    font-size: 50px;
+    color:dimgray;
+    margin: 5px;
+}
+#weather {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.hidden {
+    display: none;
+}
+#loginInput, #todoInput {
+    height: 35px;
+    width: 300px;
+    border-top: 0px; 
+    border-left: 0px; 
+    border-right: 0px; 
+    border-bottom: solid 2px gray; 
+    background: none;
+    font: 15px gray;   
+}
+#loginInput:focus, #todoInput:focus {
+    font: 20px black;
+    border-top: 0px; 
+    border-left: 0px; 
+    border-right: 0px; 
+    border-bottom: solid 2px cadetblue; 
+    outline: none;
+    transition: 0.5s;
+}
+#loginBtn {
+    width: 70px;
+    height: 35px;
+    background-color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+#loginBtn:hover {
+    background-color: cadetblue;
+    color: white;
+    transition: 0.3s;
+}
+.deleteBtn {
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    color: red;
+}
+

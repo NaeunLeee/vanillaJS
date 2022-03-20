@@ -8,6 +8,28 @@
     <title>VanillaJS App</title>
 </head>
 <body>
-
+    <div id="content">
+        <h1 id="clock">00:00:00</h1>
+        <div id="weather">
+            <span></span><br>
+            <span></span>
+        </div>
+        <br><br>
+        <form id="login-form" class="hidden">
+            <input id="loginInput" required maxlength="15" type="text" placeholder="What is your Name?" />
+            <input id="loginBtn" type="submit" value="Log In" />
+        </form>
+        <h2 class="hidden" id="greeting"></h1>
+        <br><br>
+        <form id="todo-form">
+            <input id="todoInput" type="text" placeholder="Write a To Do" required>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="js/background.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/weather.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/todo.js"></script>
 </body>
 </html>
